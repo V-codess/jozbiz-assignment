@@ -1,0 +1,184 @@
+body {
+  font-family: "Raleway";
+  margin: 0%;
+}
+.btn,
+.try {
+  background-color: #4ba87d;
+  font-family: "Raleway";
+}
+.sec{
+  margin-top: 17px;
+}
+.btn{
+  width: 150px;
+  height: 43px;
+  margin-top: 1px
+}
+.mail{
+  margin: 4px;
+}
+.underline {
+  background-color: #4ba87d;
+  height: 5px;
+  width: 100px;
+  margin: 8px;
+}
+.footer {
+  background-color: #4ba87d;
+  height: 366px;
+  font-family: "Playfair Display";
+  position: relative;
+  top: 40px;
+}
+.btn1 {
+  font-family: "Raleway";
+  color: #4ba87d;
+  position: relative;
+  left: 42%;
+  top: 40%;
+}
+.h1 {
+  position: relative;
+  top: 30%;
+}
+.brand, .brand1, .brand2, .brand3, .brand4{
+  font-family: "Playfair Display";
+ 
+    font-size: xxx-large;
+    padding: 10px 0px;
+}
+.brand4{
+  top: 8px;
+  left: 18px;
+  position: relative;
+  margin: 10px;
+}
+.brand{
+  top: 54px;
+  left: 220px;
+  position: relative;
+}
+.brand1{
+  position: relative;
+  top: 54px;
+  left: 236px;
+}
+.brand2{
+  position: relative;
+  top: 178px;
+  left: -213px;
+}
+.para1{
+  position: relative;
+  top: -312px;
+  left: 815px;
+  z-index: 1;
+  width: 280px;
+  height: 70px;
+}
+.brand3{
+  position: relative;
+  top: -406px;
+  left: 810px;
+    z-index: 1;
+    width: 450px;
+    height: 95px;
+    line-height: 50px;
+
+}
+.para {
+  color: #4ba87d;
+  font-family: "Raleway";
+  width: 1155px;
+  margin: 10px 0px;
+}
+.try,
+.demo,
+.learn {
+  width: 149px;
+  height: 50px;
+  margin: 0px 20px;
+}
+.try, .demo{
+  position: relative;
+  top: 100px;
+  left: 226px;
+}
+.demo {
+  border: 3px solid #4ba87d;
+  color: #4ba87d;
+  background-color: #fff;
+}
+.learn {
+  color: #4ba87d;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    background-color: #fff;
+    left: -21px;
+    bottom: 138px;
+    z-index: 1;
+}
+.img{
+  position: absolute;
+  width: 600.36px;
+  height: 332.19px;
+  left: 553.68px;
+  top: 156.09px;
+  z-index: -1;
+  box-shadow:0px 3px 16px rgba(0, 0, 0, 0.160784)
+}
+.headPara{
+  position: relative;
+  top: 66px;
+  left: 225px;
+}
+.sectionTwo{
+ background-image: url("../slash_black.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ object-fit: cover;
+ margin-top: 270px;
+ width: auto;
+}
+.bg{
+  background-image: url("../image2.png");
+  object-fit: cover;
+  opacity: 1.02;
+    height: 531px;
+    mix-blend-mode: normal;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.third{
+  background-color: #CAEAC7;
+  transform: rotate(-9deg);
+  margin: -90px;
+  height: 751px;
+  z-index: -1;
+  position: relative;
+    top: 68px;
+}
+.pic{
+  z-index: -1;
+}
+.pics{
+  margin-top: 38px;
+}
+.card{
+  transform: rotate(10deg);
+  position: relative;
+  top: 141px;
+  left: 80px;
+  width: 319px;
+  height: 443px;
+}
+.h4, .p{
+position: relative;
+    top: -68px;
+    padding: 0px 28px;
+}
