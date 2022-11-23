@@ -350,9 +350,7 @@ position: relative;
   width: 100px;
   height: 60px;
   margin: -6px -18px 9px 49px;}
-.mail1{
-  margin: 10px;
-}
+
   .links{
     position: relative;
     top: 450px;
@@ -368,7 +366,7 @@ position: relative;
     left: -120px
   }
   .footP{
-    width: 620px;
+    width: 815px;
     text-align: center;
   }
   .pri{
@@ -383,7 +381,7 @@ position: relative;
     left: -240px;
   }
   .mail{
-    margin: -2px;
+    margin: -10px;
   }
 
 }

@@ -131,13 +131,13 @@ const Footer = () => {
      
       </div>
       <hr className="hr mx-32" />
-      <div className="foot flex justify-around text-center font-bold	m-5">
-        <p className="footP">
+      <div className="foot flex justify-around text-center font-bold m-5">
+        <p className="footP max-w-lg">
           NinjaMail is a sample project for Quest AI. © 2019 Quest AI, All
           rights reserved.
         </p>
-        <p className="terms">Terms & Conditions</p>
-        <p className="pri">Privacy Policy</p>
+        <p className="terms max-w-sm">Terms & Conditions</p>
+        <p className="pri max-w-sm tracking-wide flex">Privacy Policy</p>
       </div>
       
     </div>
