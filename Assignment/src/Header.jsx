@@ -43,7 +43,7 @@ const Header = () => {
       </div>
       <div className="sec flex justify-between ">
          <div>
-          <h1 className="brand text-center font-bold text-3xl">
+          <h1 className="brand text-center font-bold text-3xl ">
             Create Stunning
           </h1>
           <h1 className="brand1 text-center font-bold text-3xl relative left-10">
@@ -53,10 +53,11 @@ const Header = () => {
             Create and launch email campaigns that captivate your customers in
             just a few clicks.
           </p>
-          <button className="try tracking-wider text-white uppercase font-bold p-1  ">
+          <div className="button"><button className="try tracking-wider text-white uppercase font-bold p-1  ">
             Try now
           </button>
-          <button className="demo tracking-widest uppercase font-bold">Get a demo</button>
+          <button className="demo tracking-widest uppercase font-bold">Get a demo</button></div>
+          
         </div>
           <img className="img" src="..\image1.png" alt="first" />
       </div> 

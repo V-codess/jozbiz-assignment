@@ -16,7 +16,9 @@ body {
   margin-top: 1px
 }
 .mail{
-  margin: 4px;
+  margin: -9px -13px;
+  width: 115px;
+  height: 65px;
 }
 .underline {
   background-color: #4ba87d;
@@ -50,9 +52,12 @@ body {
 }
 .brand4{
   top: 8px;
-  left: 18px;
+  left: 284px;
+  line-height: 50px;
   position: relative;
   margin: 10px;
+  width: 764px;
+  text-align: center;
 }
 .brand{
   top: 54px;
@@ -71,16 +76,16 @@ body {
 }
 .para1{
   position: relative;
-  top: -312px;
-  left: 815px;
+  top: -260px;
+  left: 880px;
   z-index: 1;
   width: 280px;
   height: 70px;
 }
 .brand3{
   position: relative;
-  top: -406px;
-  left: 810px;
+  top: -335px;
+  left: 880px;
     z-index: 1;
     width: 450px;
     height: 95px;
@@ -169,16 +174,216 @@ body {
 .pics{
   margin-top: 38px;
 }
-.card{
-  transform: rotate(10deg);
+.card, .card1{
+  transform: rotate(9deg);
   position: relative;
-  top: 141px;
-  left: 80px;
+  top: 55px;
+  left: 198px;
   width: 319px;
   height: 443px;
+}
+.card1{
+  
+  top: 197px;
+  
 }
 .h4, .p{
 position: relative;
     top: -68px;
     padding: 0px 28px;
+}
+
+@media (max-width: 640px){
+  .brand{
+    text-align: left;
+    position: relative;
+    left: 31px;
+    top: -27px;
+  }
+  .brand1{
+    text-align: left;
+    position: relative;
+    left: 40px;
+    top: -27px;
+    width: 100px;
+    line-height: 50px;
+  }
+  .img{
+    position: relative;
+    left: -350px;
+    top: 40px;
+    height: 250px;
+  }
+  .headPara{
+    position: relative;
+    top: 120px;
+    left: 29px;
+    font-weight: 500;
+    font-size: larger;
+    text-align:justify;
+  }
+  .button{
+    display: flex;
+    position: relative;
+    left: -170px;
+    top: 40px;
+    justify-content: space-around;
+  }
+  .bg{
+    opacity: 1.02;
+    height: 531px;
+    position: relative;
+    left: 12px;
+    top: -50px;
+    z-index: 1;
+    width: 454px
+  }
+  .brand2{
+    position: relative;
+    left: 1px;
+    text-align: center;
+    font-size: xx-large;
+  }
+  .learn{
+    left: 5px;
+    bottom: 335px;
+    z-index: 1;
+  }
+  .card, .card1 {
+    transform: rotate(9deg);
+    position: relative;
+    top: -74px;
+    left: 107px;
+    width: 319px;
+    height: 443px;
+}
+.brand3{
+  left: 63px;
+    z-index: 1;
+    width: 450px;
+    height: 95px;
+    line-height: 50px;
+    top: 353px;
+    position: relative;
+}
+.para1{
+  position: relative;
+    top: 433px;
+    left: 74px;
+    z-index: 1;
+    width: 280px;
+    height: 70px;
+}
+.pics{
+  display: block;
+  margin: 72px;
+  position: relative;
+  top: 450px;
+}
+.brand4{
+  top: 382px;
+    left: 18px;
+    position: relative;
+    width: 428px;
+}
+.input{
+  position: relative;
+  top: 384px;
+  left: 130px;
+  padding: 10px;
+}
+.btn2{
+  position: relative;
+  top: 474px;
+  left: -13%;
+}
+.inp{
+  display: block;
+}
+.para{
+  position: relative;
+  top: 380px;
+  left: -327px;
+}
+.card1{
+    top: 440px;
+    left: -150px;
+}
+.third{
+  position: relative;
+  top: 100px
+  }
+  .footer{
+    position: relative;
+    top: 430px;
+  }
+  .i{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 90px;
+  }
+  .btn1{
+    position: relative;
+    left: 27%;
+    top: 40%;
+  }
+  .brand5{
+    position: relative;
+    top: 450px;
+    line-height: 45px;
+  }
+  .img1{
+    height: 50px;
+    width: 200px;
+    margin: 50px 0px 0px 0px;
+    position: relative;
+    left: -10px;
+    top: 400px;
+  }
+  
+  .ninjaFont, .mailed{
+    position: relative;
+    top: 405px;
+    left: -62px;
+}
+.mailed{
+  width: 100px;
+  height: 60px;
+  margin: -6px -18px 9px 49px;}
+.mail1{
+  margin: 10px;
+}
+  .links{
+    position: relative;
+    top: 450px;
+    left: -200px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 20px;
+  }
+  .hr{
+    margin-top: 500px;
+    width: 470px;
+    position: relative;
+    left: -120px
+  }
+  .footP{
+    width: 620px;
+    text-align: center;
+  }
+  .pri{
+    position: relative;
+    top: 130px;
+    left: -324px;
+    width: 200px;
+  }
+  .terms{
+    position: relative;
+    top: 80px;
+    left: -240px;
+  }
+  .mail{
+    margin: -2px;
+  }
+
 }

@@ -86,11 +86,11 @@ const Footer = () => {
         </button>
       </div>
       <div className="grid grid-flow-col gap-2 m-16">
-        <div className="flex justify-evenly">
-        <img className="mail" src="../mail.png" alt="mail" />
-        <h1 className="font-bold text-3xl">NinjaMail</h1>
+        <div className="ninja flex justify-evenly">
+        <img className="mail mailed" src="../mail.png" alt="mail" />
+        <h1 className="ninjaFont font-bold text-3xl">NinjaMail</h1>
         </div>
-   <div className="flex justify-evenly">
+   <div className="links flex justify-evenly">
    <ul>
           {links.map((link) => {
             return (
@@ -130,14 +130,14 @@ const Footer = () => {
    </div>
      
       </div>
-      <hr className=" mx-32" />
-      <div className="flex justify-around text-center font-bold	m-5">
-        <p>
+      <hr className="hr mx-32" />
+      <div className="foot flex justify-around text-center font-bold	m-5">
+        <p className="footP">
           NinjaMail is a sample project for Quest AI. © 2019 Quest AI, All
           rights reserved.
         </p>
-        <span>Terms & Conditions</span>
-        <span>Privacy Policy</span>
+        <p className="terms">Terms & Conditions</p>
+        <p className="pri">Privacy Policy</p>
       </div>
       
     </div>

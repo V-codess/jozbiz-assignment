@@ -60,28 +60,26 @@ const Section = () => {
         </div>
 
         <h1 className="brand4 text-center font-bold text-3xl ">
-          Learn how others are reaching
+          Learn how others are reaching           their audience easier than ever before.
         </h1>
         <h1 className="brand4 text-center font-bold text-3xl">
-          their audience easier than ever before.
         </h1>
-        <div className="flex justify-center">
+        <div className="inp flex justify-center">
           <input
-            className="border rounded-sm mx-4 px-4"
+            className="input border rounded-sm mx-4 px-4"
             type="text"
             placeholder="Enter your email"
           />
-          <button className="btn uppercase text-white p-2">Join our list</button>
+          <button className="btn btn2 uppercase text-white p-2">Join our list</button>
         </div>
         <p className="para text-center">Thanks! Email received.</p>
   
-        <h1 className="brand4 text-center font-bold text-xl">
-          All the best brands
+        <h1 className="brand4 brand5 text-center font-bold text-xl">
+          All the best brands already use us.
         </h1>
-        <h1 className="brand4 text-center font-bold text-xl">already use us</h1>
-        <div className="flex justify-evenly m-12">
+        <div className="i flex justify-evenly m-12">
          {imgs.map((img)=>{
-            return (<img key={img.id} src={img.img} alt={img.name} />)
+            return (<img className="img1" key={img.id} src={img.img} alt={img.name} />)
          })}
         </div>
       </div>
